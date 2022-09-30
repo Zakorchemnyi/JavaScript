@@ -21,24 +21,24 @@ x **= z;
 console.log(x)
 
 
-let first_num = "15";
+let first_num = 15;
 let second_num = 20;
 let third_num = 100;
 if (first_num === second_num || first_num ===third_num){
-    console.log("first_num is equal second_num or third_num");
+    console.log("'first_num is equal second_num or third_num'");
 }
 else {
-    console.log("first_num is not equal to none")
+    console.log("'first_num is not equal to none'")
 }
 
 if (first_num >= second_num){
-    console.log("first_num is more than second_num")
+    console.log("'first_num is more than second_num'")
 }
 else if (first_num < second_num){
-    console.log("first_num is less than second_num")
+    console.log("'first_num is less than second_num'")
 }
 else {
-    console.log("Incorrect comparison")
+    console.log("'Incorrect comparison'")
 }
 
 const month = "8";
